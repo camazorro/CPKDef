@@ -1,0 +1,130 @@
+{
+  "cpk-version": "1.0.0",
+  "organization": {
+    "organizationID": "977B3130-C216-45E2-82F6-FDBBC8393696",
+    "organizationName": "Institution",
+    "organizationURL": "http://Institution.edu",
+    "organizationContact": [
+      {
+        "contactLable": {
+          "es": "Soporte",
+          "en": "Support"
+        },
+        "phone": "1-800-333-3333",
+        "email": "support@institution.edu",
+        "url": "http://sales.institution.edu"
+      },
+      {
+        "contactLable": {
+          "es": "Soporte",
+          "en": "Support"
+        },
+        "phone": "1-800-333-3333",
+        "email": "support@institution.edu",
+        "url": "http://support.institution.edu"
+      }
+    ]
+  },
+  "courseID": "35A6BF4D-6851-4DE0-9BA1-295A04437E16",
+  "courseVersion": "0.0.1",
+  "courseCreatedDate": "01/01/2015",
+  "courseUpdatedDate": "08/01/2015",
+  "courseLanguages": [
+    {
+      "en": "english",
+      "default": "yes"
+    },
+    {
+      "es": "español"
+    }
+  ],
+  "courseTrackBack": {
+    "method": "POST",
+    "url": "https://track.institution.edu",
+    "header": {
+      "Authorization": "Bearer mF_9.B5f-4.1JqM",
+      "Content-Type": "application/json"
+    }
+  },
+  "courseTitle": {
+    "en": "Advance Accounting",
+    "es": "Contabilidad Avanzada"
+  },
+  "courseIntroduction":
+  {
+    "courseIntroductionText":
+    {
+      "en": "Course Introduction",
+      "es": "Instrodución del Curso"
+    },
+    "courseIntroductionMedia":
+    {
+      "mediaType": "MP3|MP4|MOV",
+      "mediaLocationType": "PATH|URL",
+      "media" : 
+      {
+        "location": "http://isntitution.com/media/ubdfsvsvbfui"
+      }
+    }
+  },
+  "courseDescription": {
+    "en": "Get a comprehensive understanding of consolidated financial statements and how to prepare them. Focus on the accounting principles, methods and techniques that relate to particular types of business and nonbusiness entities, including corporations, partnerships, government units, estates and trusts, and nonprofits. Limited time is devoted to exploring certain tax aspects of consolidated financial statements.",
+    "es": "Obtener una comprensión integral de los estados financieros consolidados y cómo prepararlos . Centrarse en los principios, métodos y técnicas que se relacionan con determinados tipos de entidades comerciales y no comerciales , incluidas las empresas , sociedades, las unidades gubernamentales , sucesiones y fideicomisos y organizaciones no lucrativas . Tiempo limitado está dedicado a la exploración de ciertos aspectos fiscales de los estados financieros consolidados."
+  },
+  "courseCode": "AA001",
+  "courseInstructor": [
+    {
+      "instructorName": "Gerardo Renovales",
+      "instructorHeroImage": {
+        "smallImage": "PATH|URL",
+        "Image": "PATH|URL",
+        "largeImage": "PATH|URL"
+      },
+      "instructorContact": {
+        "phone": "813-645-6325",
+        "email": "profesor@institution.edu",
+        "social": {
+          "Facebook": "http://facebook.com/grenovales",
+          "Twiter": "@grenovales"
+        }
+      },
+      "instructorBiography": [
+        {
+          "en": "BIOGRAPHY TEXT"
+        },
+        {
+          "es": "BIOGRAFIA"
+        }
+      ]
+    }
+  ],
+  "courseRequirements":
+  {
+    "en": "English Version of the Requirements",
+    "es": "Requerimientos en Español"
+  },
+  "courseItems": 
+  [
+    {
+      "itemID": "99999",
+      "itemTitle": 
+      {
+        "en": "Instroduction to Advance Accounting",
+        "es": "Introduction a Contabilidad Avanzada"
+      },
+      "itemDescription" :
+      {
+        "en": "Items Description in English",
+        "es" :"Descripción en Español"
+      },
+      "itemOrder": 0,
+      "itemAssets":
+      [
+        {
+          "itemAssetContentType": "text/html",
+          "itemAssetReferenceType": "CONTENT|PATH|"
+        }
+      ]
+    }
+  ]
+}
